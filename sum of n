@@ -1,0 +1,11 @@
+#include<stdio.h>
+int square(int x,int y)
+{
+    int sqr=x*x+y*y;
+}    
+void main()
+{
+int x=4;
+int y=5;
+printf("%d\n",square(x,y));
+}
